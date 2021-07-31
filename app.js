@@ -1,18 +1,18 @@
 // HTML ELEMENTS
-var arrSquares = document.querySelectorAll(".square");
-var info = document.querySelector("#info");
-var header = document.querySelector("h1");
-var reset = document.querySelector("#reset");
-var bInstructions = document.querySelector("#bInstructions");
-var bDone = document.querySelector("#bDone");
-var link = document.querySelector("a");
+const arrSquares = document.querySelectorAll(".square");
+const info = document.querySelector("#info");
+const header = document.querySelector("h1");
+const reset = document.querySelector("#reset");
+const bInstructions = document.querySelector("#bInstructions");
+const bDone = document.querySelector("#bDone");
+const link = document.querySelector("a");
 
 // AIDING ELEMENTS
-var arrHexDigits = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "a", "b", "c", "d", "e", "f"];
-var arrColors; // stores the colors that will be added to the squares
-var stage; // counts which stage we're in
-var starterStagesQuantity = 3; // in these colors are chosen randomly
-var alterOffset = 128; // will help make the changes less drastic in latter rounds
+let arrHexDigits = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "a", "b", "c", "d", "e", "f"];
+let arrColors; // stores the colors that will be added to the squares
+let stage; // counts which stage we're in
+let starterStagesQuantity = 3; // in these colors are chosen randomly
+let alterOffset = 128; // will help make the changes less drastic in latter rounds
 
 // FLOW
 stage = 1;
